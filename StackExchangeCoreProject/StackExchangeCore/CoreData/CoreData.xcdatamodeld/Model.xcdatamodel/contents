@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Answers" representedClassName="Answers" syncable="YES">
+        <attribute name="answerNo" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="reputation" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="String"/>
+        <attribute name="uuID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Questions" representedClassName="Questions" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="questionID" optional="YES" attributeType="String"/>
+        <attribute name="questionTitle" optional="YES" attributeType="String"/>
+        <attribute name="reputation" optional="YES" attributeType="String"/>
+        <attribute name="uuID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Questions" positionX="-45" positionY="0" width="128" height="134"/>
+        <element name="Answers" positionX="-18" positionY="27" width="128" height="134"/>
+    </elements>
+</model>
